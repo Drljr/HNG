@@ -16,7 +16,7 @@ class MyWorkPage extends StatelessWidget {
               child: Material(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(24.0),
-                shadowColor: Colors.blue,
+                shadowColor: Colors.black26,
                 elevation: 14.0,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -28,7 +28,7 @@ class MyWorkPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(24.0),
                         child: const Icon(
                           Icons.phone_android,
-                          color: Colors.blue,
+                          color: Colors.black26,
                           size: 50,
                         ),
                       ),
@@ -41,7 +41,7 @@ class MyWorkPage extends StatelessWidget {
                           const Text(
                             'Mobile Apps Dev Intern',
                             style: TextStyle(
-                              color: Colors.blue,
+                              color: Colors.black,
                               fontSize: 24.0,
                               fontWeight: FontWeight.bold,
                             ),
@@ -51,7 +51,7 @@ class MyWorkPage extends StatelessWidget {
                               Text(
                                 'HNG Intern working with the Flutter Technology',
                                 style: TextStyle(
-                                  color: Colors.black54,
+                                  color: Colors.black,
                                   fontSize: 18.0,
                                 ),
                               ),
@@ -71,7 +71,7 @@ class MyWorkPage extends StatelessWidget {
               child: Material(
                 color: Colors.white,
                 borderRadius: BorderRadius.circular(24.0),
-                shadowColor: Colors.blue,
+                shadowColor: Colors.black26,
                 elevation: 14.0,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -83,7 +83,7 @@ class MyWorkPage extends StatelessWidget {
                         borderRadius: BorderRadius.circular(24.0),
                         child: const Icon(
                           Icons.code,
-                          color: Colors.blue,
+                          color: Colors.black26,
                           size: 50,
                         ),
                       ),
@@ -96,7 +96,7 @@ class MyWorkPage extends StatelessWidget {
                           const Text(
                             'Front End Developer',
                             style: TextStyle(
-                              color: Colors.blue,
+                              color: Colors.black,
                               fontSize: 15.0,
                               fontWeight: FontWeight.bold,
                             ),
@@ -106,7 +106,7 @@ class MyWorkPage extends StatelessWidget {
                               Text(
                                 'Worked On a Project given by my school',
                                 style: TextStyle(
-                                  color: Colors.black54,
+                                  color: Colors.black,
                                   fontSize: 15.0,
                                 ),
                               ),

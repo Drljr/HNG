@@ -42,7 +42,7 @@ class MyDashboard extends StatelessWidget {
                       width: MediaQuery.of(context).size.width,
                       decoration: BoxDecoration(
                           gradient: LinearGradient(
-                        colors: <Color>[Colors.blue, Colors.blue.shade300],
+                        colors: <Color>[Colors.black, Colors.black26],
                       )),
                     ),
                   ),
@@ -89,14 +89,14 @@ class MyDashboard extends StatelessWidget {
                                           ),
                                         );
                                       },
-                                      splashColor: Colors.blue,
+                                      splashColor: Colors.black,
                                       child: Center(
                                         child: Column(
                                           mainAxisAlignment:
                                               MainAxisAlignment.center,
                                           children: const [
                                             Icon(Icons.person,
-                                                size: 70, color: Colors.blue),
+                                                size: 70, color: Colors.black),
                                             Text("Profile"),
                                           ],
                                         ),
@@ -117,7 +117,7 @@ class MyDashboard extends StatelessWidget {
                                           ),
                                         );
                                       },
-                                      splashColor: Colors.blue,
+                                      splashColor: Colors.black,
                                       child: Center(
                                         child: Column(
                                           mainAxisAlignment:
@@ -126,7 +126,7 @@ class MyDashboard extends StatelessWidget {
                                             Icon(
                                               Icons.work,
                                               size: 70,
-                                              color: Colors.blue,
+                                              color: Colors.red,
                                             ),
                                             Text("Work"),
                                           ],
@@ -148,7 +148,7 @@ class MyDashboard extends StatelessWidget {
                                           ),
                                         );
                                       },
-                                      splashColor: Colors.blue,
+                                      splashColor: Colors.black,
                                       child: Center(
                                         child: Column(
                                           mainAxisAlignment:
@@ -179,7 +179,7 @@ class MyDashboard extends StatelessWidget {
                                           ),
                                         );
                                       },
-                                      splashColor: Colors.blue,
+                                      splashColor: Colors.black,
                                       child: Center(
                                         child: Column(
                                           mainAxisAlignment:
@@ -188,7 +188,7 @@ class MyDashboard extends StatelessWidget {
                                             Icon(
                                               EvaIcons.heart,
                                               size: 70,
-                                              color: Colors.blue,
+                                              color: Colors.pink,
                                             ),
                                             Text("Hobby"),
                                           ],
@@ -210,7 +210,7 @@ class MyDashboard extends StatelessWidget {
                                           ),
                                         );
                                       },
-                                      splashColor: Colors.blue,
+                                      splashColor: Colors.black26,
                                       child: Center(
                                         child: Column(
                                           mainAxisAlignment:
@@ -219,7 +219,7 @@ class MyDashboard extends StatelessWidget {
                                             Icon(
                                               Icons.fastfood_rounded,
                                               size: 70,
-                                              color: Colors.blue,
+                                              color: Colors.yellow,
                                             ),
                                             Text("Favorite Food"),
                                           ],
