@@ -1,7 +1,6 @@
 import 'package:eva_icons_flutter/eva_icons_flutter.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:uts_bimsputra/pages/dahsboard/component/shapedashboard.dart';
 import 'package:uts_bimsputra/pages/favorite_food/favorite_food.dart';
 import 'package:uts_bimsputra/pages/hobby/hobby.dart';
 import 'package:uts_bimsputra/pages/profile/profile.dart';
@@ -21,6 +20,7 @@ class MyDashboard extends StatelessWidget {
           return Consumer(builder: (context, ThemeModel themeNotifier, child) {
             return Scaffold(
               appBar: AppBar(
+                backgroundColor: Colors.black,
                 actions: [
                   IconButton(
                       onPressed: () {
@@ -35,17 +35,6 @@ class MyDashboard extends StatelessWidget {
               ),
               body: Stack(
                 children: [
-                  ClipPath(
-                    clipper: ShapeDashboard(),
-                    child: Container(
-                      height: 250,
-                      width: MediaQuery.of(context).size.width,
-                      decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                        colors: <Color>[Colors.black, Colors.black26],
-                      )),
-                    ),
-                  ),
                   SafeArea(
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
@@ -58,7 +47,7 @@ class MyDashboard extends StatelessWidget {
                               Text(
                                 "David's Portfolio",
                                 style: TextStyle(
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   fontSize: 24,
                                   fontWeight: FontWeight.bold,
                                 ),

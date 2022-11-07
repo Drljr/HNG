@@ -6,7 +6,10 @@ class MyHobbyPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Hobby"), centerTitle: true),
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: const Text("Hobby"),
+        centerTitle: true),
       body: Column(
         children: [
           Expanded(

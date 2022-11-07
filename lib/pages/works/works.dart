@@ -6,7 +6,10 @@ class MyWorkPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Work"), centerTitle: true),
+      appBar: AppBar(
+      backgroundColor: Colors.black,
+      title: const Text("Work"),
+      centerTitle: true),
       body: ListView(
         scrollDirection: Axis.vertical,
         children: <Widget>[

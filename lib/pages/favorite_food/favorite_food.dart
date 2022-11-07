@@ -6,37 +6,31 @@ class MyFavoriteFood extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text("Favorite Food"), centerTitle: true),
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: const Text("Favorite Food"),
+        centerTitle: true),
       body: ListView(
         children: [
           Padding(
-            padding: const EdgeInsets.all(8.0),
+            padding: const EdgeInsets.all(1.0),
             child: FittedBox(
               child: Material(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(24.0),
-                shadowColor: Colors.blue,
-                elevation: 14.0,
+                shadowColor: Colors.black,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    SizedBox(
-                      width: 35.0,
-                      height: 35.0,
-                      child: ClipRRect(
-                        borderRadius: BorderRadius.circular(24.0),
-                      ),
-                    ),
                     Padding(
-                      padding: const EdgeInsets.all(8.0),
+                      padding: const EdgeInsets.all(1.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
                           const Text(
                             'Plantain',
                             style: TextStyle(
-                              color: Colors.blue,
-                              fontSize: 18.0,
+                              color: Colors.black,
+                              fontSize: 1.0,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -53,19 +47,10 @@ class MyFavoriteFood extends StatelessWidget {
             child: FittedBox(
               child: Material(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(24.0),
-                shadowColor: Colors.blue,
-                elevation: 14.0,
+                shadowColor: Colors.black,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    SizedBox(
-                      width: 30.0,
-                      height: 30.0,
-                      child: CircleAvatar(
-                        backgroundColor: Colors.transparent,
-                      ),
-                    ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -74,7 +59,7 @@ class MyFavoriteFood extends StatelessWidget {
                           const Text(
                             'Spaghetti',
                             style: TextStyle(
-                              color: Colors.blue,
+                              color: Colors.black,
                               fontSize: 18.0,
                               fontWeight: FontWeight.bold,
                             ),
@@ -92,19 +77,10 @@ class MyFavoriteFood extends StatelessWidget {
             child: FittedBox(
               child: Material(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(24.0),
-                shadowColor: Colors.blue,
-                elevation: 14.0,
+                shadowColor: Colors.black,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    SizedBox(
-                      width: 25.0,
-                      height: 25.0,
-                      child: CircleAvatar(
-                        backgroundColor: Colors.transparent,
-                      ),
-                    ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -113,7 +89,7 @@ class MyFavoriteFood extends StatelessWidget {
                           const Text(
                             'Burger',
                             style: TextStyle(
-                              color: Colors.blue,
+                              color: Colors.black,
                               fontSize: 18.0,
                               fontWeight: FontWeight.bold,
                             ),
@@ -131,19 +107,12 @@ class MyFavoriteFood extends StatelessWidget {
             child: FittedBox(
               child: Material(
                 color: Colors.white,
-                borderRadius: BorderRadius.circular(24.0),
-                shadowColor: Colors.blue,
-                elevation: 14.0,
+                // borderRadius: BorderRadius.circular(24.0),
+                shadowColor: Colors.black,
+                // elevation: 14.0,
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    SizedBox(
-                      width: 25.0,
-                      height: 25.0,
-                      child: CircleAvatar(
-                        backgroundColor: Colors.transparent,
-                      ),
-                    ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Column(
@@ -152,7 +121,7 @@ class MyFavoriteFood extends StatelessWidget {
                           const Text(
                             'Pizza',
                             style: TextStyle(
-                              color: Colors.blue,
+                              color: Colors.black,
                               fontSize: 18.0,
                               fontWeight: FontWeight.bold,
                             ),

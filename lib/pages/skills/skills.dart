@@ -12,7 +12,10 @@ class SkillPage extends StatelessWidget {
       'C++',
     ];
     return Scaffold(
-      appBar: AppBar(title: const Text("Skills"), centerTitle: true),
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: const Text("Skills"),
+        centerTitle: true),
       body: ListView.builder(
         itemCount: titles.length,
         itemBuilder: (context, index) {

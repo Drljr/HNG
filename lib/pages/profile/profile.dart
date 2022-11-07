@@ -15,13 +15,13 @@ class ProfileScreen extends StatelessWidget {
         child: Stack(
           alignment: Alignment.center,
           children: [
-            CustomPaint(
-              child: SizedBox(
-                width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height,
-              ),
-              painter: HeaderCurvedContainer(),
-            ),
+            // CustomPaint(
+            //   child: SizedBox(
+            //     width: MediaQuery.of(context).size.width,
+            //     height: MediaQuery.of(context).size.height,
+            //   ),
+            //   painter: HeaderCurvedContainer(),
+            // ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
@@ -32,7 +32,7 @@ class ProfileScreen extends StatelessWidget {
                     style: TextStyle(
                       fontSize: 35.0,
                       letterSpacing: 1.5,
-                      color: Colors.white,
+                      color: Colors.black,
                       fontWeight: FontWeight.w600,
                     ),
                   ),
