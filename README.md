@@ -18,20 +18,13 @@ created different dart files for skills, profile,favourite food.e.t.c. And creat
 it just an app about me that shows my skills, hobby, profile.click the section you want to see.
 
 
-
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
 # what i would love to add
 
 i would love to add pictures or videos of my favourite food and and make the UI better. i love a good UI
 
-###🔗 &ensp; apk file
+###🔗 &ensp; appetize link
+<https://appetize.io/app/kqyafhtvdlvlu4romwp54lpnym>
+
 
 ### ⚡&ensp;Social Media
 
